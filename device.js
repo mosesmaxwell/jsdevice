@@ -15,7 +15,7 @@ function toggleVibrate(ob)
 	{
 		case ON:
 			ob.innerHTML = OFF;
-			vibrate();
+			vibrate(10000);
 			break;
 		case OFF:
 			ob.innerHTML = ON;
